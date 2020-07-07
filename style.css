@@ -1,0 +1,68 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 20px;
+    background-image: url('background2.jpg');
+    background-size: 100%;
+
+  }
+  a{
+    background-color: yellow;
+    padding: 5px;
+  }
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+
+  }
+  
+
+  .leftcolumn {   
+    text-align: center;
+    column-gap: 20px;
+    float: left;
+    width: 70%;
+  }
+  
+  .rightcolumn {
+    text-align: center;
+    float: left;
+    width: 30%;
+
+  }
+  
+  .card {
+    color:white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer {
+    background: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
