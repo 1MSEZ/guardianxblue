@@ -9,7 +9,8 @@ a{
     text-decoration: none;
 }
 
-.logo, a{
+.logo, 
+a{
     font-family: 'Inconsolata';
     color: blue;
     text-decoration: none;

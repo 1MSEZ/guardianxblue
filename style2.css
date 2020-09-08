@@ -11,7 +11,9 @@ body{
 }
 
 p{font-size: 20px;}
-.logo, a{
+
+.logo, 
+a{
     font-family: 'Inconsolata';
     color: blue;
     text-decoration: none;
