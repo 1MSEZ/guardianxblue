@@ -1,61 +1,93 @@
 
 * {
-    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
   }
   
-  body {
-    padding: 20px;
-    background-image: url('background2.jpg');
-    background-size: 100%;
+  
+body{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: cyan;
+}
 
-  }
-  a{
-    background-color: yellow;
-  }
-  /* Header/Blog Title */
-  .header {
-    padding: 20px;
-    font-size: 20px;
+p{font-size: 20px;}
+.logo, a{
+    font-family: 'Inconsolata';
+    color: blue;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(0, 68, 255);
+}
+
+.logo{
+    margin: 0;
+	padding: 10px;
+	font-weight: 700;
+    font-size: 1em;
+    font-family: 'Libre Barcode 128';
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.interesting{
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto;
+    min-height: 20vh;
+    font-family: 'Inconsolata';
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+#content{
+
     text-align: center;
-    color: yellow;
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+    min-height: 10vh;
+    font-family: 'Inconsolata';
+    text-decoration: none;
+}
 
-  }
-  
+.contentleft{
+    background: black;
+    color: white;
+    float:left;
+    margin: auto;
+    width: 70%;
+}
 
-  .leftcolumn {   
-      text-align: center;
-    column-gap: 20px;
-    float: left;
-    width: 100%;
-  }
-  
-  
-  .card {
-    color:white;
-     padding: 20px;
-     margin-top: 20px;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  footer {
-    background: rgba(255, 255, 255, 0.5);
+.contentcenter{
+    float: center;
+    margin: auto;
+}
+
+.contentright{
+    background-color: black;
+    color: white;
+    float:right;
+    margin: auto;
+    width: 25%;
+}
+
+footer {
+	background: rgba(0, 0, 0);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: black;
+    color: white;
     text-align: center;
-  }
-  
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
-  }
+    font-family: 'Inconsolata';
+  } 
+
+
