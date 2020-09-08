@@ -1,7 +1,6 @@
 
 * {
     box-sizing: border-box;
-    
 }
 
 a{
@@ -17,10 +16,9 @@ a{
 }
 
 body{
-   
     background-repeat: no-repeat;
-  background-size: auto;
-  background: cyan;
+    background-size: auto;
+    background: cyan;
 }
 
 .logo{
@@ -33,8 +31,7 @@ body{
     text-decoration: none;
 }
 
-.index{
-   
+.index{ 
     position: relative;
 	display: flex;
 	justify-content: center;

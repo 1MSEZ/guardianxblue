@@ -10,7 +10,9 @@ body{
     background: cyan;
 }
 
-p{font-size: 20px;}
+p{
+    font-size: 20px;
+}
 
 .logo, 
 a{
@@ -48,7 +50,6 @@ a{
 
 
 #content{
-
     text-align: center;
     position: relative;
 	display: flex;
